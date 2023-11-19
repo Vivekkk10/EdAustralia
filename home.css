@@ -1,0 +1,275 @@
+.navbar { height: 80px;}
+.navbar-nav {    gap: 65px;
+  margin-left: 45px;}
+
+.navbar-brand {border: 1px solid black;
+  padding: 5px 30px;
+  border-radius: 6px;}
+
+.tt {    background: #101010;
+  width: 475px;
+  height: 80px;
+  margin-right: -60px;}
+
+  .tt-2 {
+    background-color: #eaff4a;
+    width: 100px;
+    margin: auto;
+    top: 23px;
+    position: relative;
+    height: 33px;
+    font-size: 17px;
+    left: 122px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+  }
+
+
+/*section 1 */
+.section-1 {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+.p-1 {
+    margin-top: 5rem;
+}
+.h-1 {
+    font-weight: bold;
+    font-size: 4rem;
+}
+.btn-spacing {
+    padding: 11px 45px;
+    margin-top: 20px;
+}
+.design-1 {
+    margin-top: 2rem;
+    width: 225px;
+}
+
+/* Section2 */
+
+.sec-2 {
+    height: 675px;
+    width: -webkit-fill-available;
+}
+.h-2 {
+    font-size: 17px;
+}
+
+.why-australfia-list li {
+    margin-top: 30px;
+}
+
+/* sec3 */
+
+.sec-3{
+    max-width: -webkit-fill-available;
+}
+
+/* sec4 */
+
+.section-4 {
+    background-color: #ddd;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    height: 13rem;
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+.card-text {
+    font-weight: 400;
+    font-size: 19px;
+    padding-top: 12px;
+}
+.yellow-bg {
+    background-color: #eaff4a;
+}
+.yellow-c {
+    color: #ffff06b3 ;
+}
+
+.card-ed {
+    background-color: white;
+    width: fit-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* sec5 */
+
+.section-5 {
+    padding: 3rem;
+}
+.section-5 h1 {
+    font-weight: bold;
+}
+.section-5 button {
+    padding: 18px;
+    font-size: x-large;
+    font-weight: 500;
+    width: -webkit-fill-available;
+    border-radius: 5px;}
+
+/* sec6 */
+
+.section-6 {
+    padding-top: 5rem;
+    /* padding-bottom: 5rem; */
+}
+
+.sec-6 {
+    width: -webkit-fill-available;
+}
+
+.sec-6-rhs {
+    padding-left: 3rem;
+}
+
+.section-6 button {
+    font-weight: 500;
+}
+/* sec6 stats */
+
+.stat-h {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 3rem;
+}
+
+/* sec7 */
+
+.section-7 {
+    padding-bottom: 5.3rem;
+    background-color: #ddd;
+}
+.section-7 h1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+#testimonialCarousel {
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.testimonials-section {
+    background: #f8f9fa;
+    padding: 2rem 0;
+    color: #333;
+  }
+  .testimonials-heading {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .carousel-indicators [data-bs-target] {
+    background-color: #eaff4a; /* Active indicator color */
+    height: 6px;
+  }
+  .carousel-indicators {
+    bottom: -50px; /* Position the indicators a bit lower */
+  }
+
+  .blockquote {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    color: #555;
+    text-align: left;
+  }
+  .blockquote-footer {
+    padding-top: 10px;
+  }
+  .testimonial-name {
+    font-weight: bold;
+    color: #333;
+    font-size: larger;
+  }
+  .testimonial-location {
+    font-style: italic;
+    color: #666;
+    font-weight: 500;
+  }
+  .carousel-item {
+    padding: 1rem;
+    text-align: center;
+  }
+
+
+  /* footer */
+
+  .footer {
+    background-color: black;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+
+  }
+
+  .footer h1 {
+    padding-bottom: 2rem;
+  }
+
+
+  /* mobile pov */
+
+  .show {
+    background-color: #eaff4a;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .navbar-nav {
+      gap: 40px;
+    }
+    .ms-auto {
+        margin-right: 373px;
+        padding-top: 28px;
+        margin-bottom: 15px;
+    }
+    .sec-1 {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    .sec-1, .sec-2, .sec-3, .sec-6 {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-4 {
+        padding-top: 2rem;
+    }
+    .section-4 button {
+        margin-bottom: 2rem;
+    }
+
+    .last-card {
+        margin-top: 1rem;
+    }
+
+    .section-6 {
+        padding-bottom: 4rem;
+    }
+    .sec-6 {
+        margin-bottom: 3rem;
+    }
+
+    .stat-h {
+        font-size: x-large;
+    }
+
+    #testimonialCarousel {
+        width: 400px;
+    }
+  }
