@@ -1,17 +1,26 @@
-.navbar { height: 80px;}
-.navbar-nav {    gap: 65px;
-  margin-left: 45px;}
+.navbar {
+    height: 80px;
+}
 
-.navbar-brand {border: 1px solid black;
-  padding: 5px 30px;
-  border-radius: 6px;}
+.navbar-nav {
+    gap: 65px;
+    margin-left: 45px;
+}
 
-.tt {    background: #101010;
-  width: 475px;
-  height: 80px;
-  margin-right: -60px;}
+.navbar-brand {
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-radius: 6px;
+}
 
-  .tt-2 {
+.tt {
+    background: #101010;
+    width: 475px;
+    height: 80px;
+    margin-right: -60px;
+}
+
+.tt-2 {
     background-color: #eaff4a;
     width: 100px;
     margin: auto;
@@ -23,25 +32,29 @@
     font-weight: bold;
     text-align: center;
     padding-top: 3px;
-  }
+}
 
 
 /*section 1 */
 .section-1 {
-    background-color: #f8f9fa; /* Light grey background */
+    background-color: #f8f9fa;
+    /* Light grey background */
 }
 
 .p-1 {
     margin-top: 5rem;
 }
+
 .h-1 {
     font-weight: bold;
     font-size: 4rem;
 }
+
 .btn-spacing {
     padding: 11px 45px;
     margin-top: 20px;
 }
+
 .design-1 {
     margin-top: 2rem;
     width: 225px;
@@ -53,17 +66,19 @@
     height: 675px;
     width: -webkit-fill-available;
 }
+
 .h-2 {
     font-size: 17px;
 }
 
-.section-2-list li{
+.section-2-list li {
     padding-top: 35px;
-    padding-left: 15px;}
+    padding-left: 15px;
+}
 
 /* sec3 */
 
-.sec-3{
+.sec-3 {
     max-width: -webkit-fill-available;
 }
 
@@ -88,11 +103,13 @@
     font-size: 19px;
     padding-top: 12px;
 }
+
 .yellow-bg {
     background-color: #eaff4a;
 }
+
 .yellow-c {
-    color: #ffff06b3 ;
+    color: #ffff06b3;
 }
 
 .card-ed {
@@ -108,15 +125,18 @@
 .section-5 {
     padding: 3rem;
 }
+
 .section-5 h1 {
     font-weight: bold;
 }
+
 .section-5 button {
     padding: 18px;
     font-size: x-large;
     font-weight: 500;
     width: -webkit-fill-available;
-    border-radius: 5px;}
+    border-radius: 5px;
+}
 
 /* sec6 */
 
@@ -128,6 +148,7 @@
 .section-6 h1 {
     font-weight: 700;
 }
+
 .sec-6 {
     width: -webkit-fill-available;
 }
@@ -139,6 +160,7 @@
 .section-6 button {
     font-weight: 500;
 }
+
 /* sec6 stats */
 
 .stat-h {
@@ -153,6 +175,7 @@
     padding-bottom: 5.3rem;
     background-color: #ddd;
 }
+
 .section-7 h1 {
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -171,81 +194,96 @@
     background: #f8f9fa;
     padding: 2rem 0;
     color: #333;
-  }
-  .testimonials-heading {
+}
+
+.testimonials-heading {
     text-align: center;
     font-size: 2.5rem;
     margin-bottom: 1rem;
-  }
-  .carousel-indicators [data-bs-target] {
-    background-color: #eaff4a; /* Active indicator color */
-    height: 6px;
-  }
-  .carousel-indicators {
-    bottom: -50px; /* Position the indicators a bit lower */
-  }
+}
 
-  .blockquote {
+.carousel-indicators [data-bs-target] {
+    background-color: #eaff4a;
+    /* Active indicator color */
+    height: 6px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+    /* Position the indicators a bit lower */
+}
+
+.blockquote {
     font-size: 1.25rem;
     margin-top: 1rem;
     color: #555;
     text-align: left;
-  }
-  .blockquote-footer {
+}
+
+.blockquote-footer {
     padding-top: 10px;
-  }
-  .testimonial-name {
+}
+
+.testimonial-name {
     font-weight: bold;
     color: #333;
     font-size: larger;
-  }
-  .testimonial-location {
+}
+
+.testimonial-location {
     font-style: italic;
     color: #666;
     font-weight: 500;
-  }
-  .carousel-item {
+}
+
+.carousel-item {
     padding: 1rem;
     text-align: center;
-  }
+}
 
 
-  /* footer */
+/* footer */
 
-  .footer {
+.footer {
     background-color: black;
     color: white;
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center;
 
-  }
+}
 
-  .footer h1 {
+.footer h1 {
     padding-bottom: 2rem;
-  }
+}
 
 
-  /* mobile pov */
+/* mobile pov */
 
-  .show {
+.show {
     background-color: #eaff4a;
-  }
+}
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .navbar-nav {
-      gap: 40px;
+        gap: 40px;
     }
+
     .ms-auto {
         margin-right: 225px;
         padding-top: 28px;
         margin-bottom: 15px;
     }
+
     .sec-1 {
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-    .sec-1, .sec-2, .sec-3, .sec-6 {
+
+    .sec-1,
+    .sec-2,
+    .sec-3,
+    .sec-6 {
         max-width: 100%;
         height: auto;
     }
@@ -253,6 +291,7 @@
     .section-4 {
         padding-top: 2rem;
     }
+
     .section-4 button {
         margin-bottom: 2rem;
     }
@@ -264,6 +303,7 @@
     .section-6 {
         padding-bottom: 4rem;
     }
+
     .sec-6 {
         margin-bottom: 3rem;
     }
@@ -275,4 +315,4 @@
     #testimonialCarousel {
         width: 350px;
     }
-  }
+}
