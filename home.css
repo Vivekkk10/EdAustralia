@@ -125,6 +125,9 @@
     /* padding-bottom: 5rem; */
 }
 
+.section-6 h1 {
+    font-weight: 700;
+}
 .sec-6 {
     width: -webkit-fill-available;
 }
